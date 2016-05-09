@@ -14,7 +14,7 @@
     */
     public $formArray = array(
         'sTitle' => array('type' => 'text', 'sLabel' => 'Titre', 'help' => '', 'default' => '','required' => true),
-        'sResume' => array('type' => 'textarea', 'sLabel' => 'Résumé', 'help' => '', 'default' => '','required' => true),
+        'sResume' => array('type' => 'text', 'sLabel' => 'Résumé', 'help' => '', 'default' => '','required' => true),
         'sContent' => array('type' => 'textareaPlus', 'sLabel' => 'Contenue', 'help' => '', 'default' => '','required' => true),
         'sImageUrl' => array('type' => 'text', 'sLabel' => 'Image' , 'help' => '', 'default' => '','required' => false),
         'iStatus' => array('type' => 'checkbox', 'sLabel' => 'Publié', 'help' => '', 'default' => 1,'required' => false)
